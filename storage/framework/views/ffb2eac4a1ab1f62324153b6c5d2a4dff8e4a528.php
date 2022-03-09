@@ -18,7 +18,32 @@
             </div>
            <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
         </div>
+        
+        <style>
+          .pagination {
+            display: inline-block;
+          }
 
+          .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            border:1px solid #F6C501;
+          }
+
+          .active{
+             background-color: #F6C501;
+          }
+          </style>
+
+        <div class="range text-center offset-top-40 offset-sm-top-60 offset-lg-top-100">
+            <div class="cell-xs-12">
+              <?php
+                 echo $Portfolio;
+               ?>
+            </div>
+        </div>
 
         
         <br><br>
