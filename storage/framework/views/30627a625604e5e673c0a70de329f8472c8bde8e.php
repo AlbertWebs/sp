@@ -1,7 +1,7 @@
 <?php $__env->startSection('content'); ?>
 
   <main class="page-content">
-    <section>
+    <section class="video-section">
       <div data-loop="false" data-autoplay="false" data-simulate-touch="true" class="swiper-container swiper-slider swiper-variant-1 bg-gray-base">
         <div class="swiper-wrapper text-center">
         <?php $__currentLoopData = $Slider; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $slider): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>

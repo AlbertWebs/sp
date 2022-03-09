@@ -2,7 +2,7 @@
 @section('content')
 
   <main class="page-content">
-    <section>
+    <section class="video-section">
       <div data-loop="false" data-autoplay="false" data-simulate-touch="true" class="swiper-container swiper-slider swiper-variant-1 bg-gray-base">
         <div class="swiper-wrapper text-center">
         @foreach($Slider as $slider)

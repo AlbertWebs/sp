@@ -50135,10 +50135,15 @@
         position: absolute;
         top: 0px;
         bottom:0px;
+    }
 
+    .swiper-variant-1, .swiper-variant-1 .swiper-wrapper {
+        height: auto;
+        min-height: 450px;
     }
  }
 
  .about-btn{
      margin-bottom:20px;
  }
+
