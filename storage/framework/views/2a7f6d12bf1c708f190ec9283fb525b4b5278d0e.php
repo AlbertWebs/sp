@@ -1,0 +1,1 @@
+<?php /**PATH /home/stagepassco/public_html/resources/views/front/schema.blade.php ENDPATH**/ ?>
