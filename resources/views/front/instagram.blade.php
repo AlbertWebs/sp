@@ -13,16 +13,17 @@
                      <a href="{{url('/')}}/portfolio/{{$portfolio->slung}}" class="btn btn-sm btn-gray-base-outline">View Gallery</a>
                  </div>
              </div>
-         </div>
+        </div>
         @endforeach
     </div>
 
 
-    {{--  --}}
-    <br><br>
-    <center>
-        <a style="padding-bottom: 10px" target="new" href="{{url('/')}}/our-work" class="btn  btn-primary">Explore More</a>
-    </center>
+        {{--  --}}
+        <br><br>
+        <center>
+            <a target="new" href="{{url('/')}}/our-work" class="btn  btn-primary">Explore More</a>
+        </center>
+        <div  style="padding-bottom: 10px"></div>
 
     </div>
     <div class="divider-spectrum"></div>

@@ -13,16 +13,17 @@
                      <a href="<?php echo e(url('/')); ?>/portfolio/<?php echo e($portfolio->slung); ?>" class="btn btn-sm btn-gray-base-outline">View Gallery</a>
                  </div>
              </div>
-         </div>
+        </div>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
     </div>
 
 
-    
-    <br><br>
-    <center>
-        <a style="padding-bottom: 10px" target="new" href="<?php echo e(url('/')); ?>/our-work" class="btn  btn-primary">Explore More</a>
-    </center>
+        
+        <br><br>
+        <center>
+            <a target="new" href="<?php echo e(url('/')); ?>/our-work" class="btn  btn-primary">Explore More</a>
+        </center>
+        <div  style="padding-bottom: 10px"></div>
 
     </div>
     <div class="divider-spectrum"></div>
