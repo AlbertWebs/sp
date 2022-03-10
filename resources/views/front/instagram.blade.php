@@ -23,8 +23,9 @@
     <center>
         <a target="new" href="{{url('/')}}/our-work" class="btn  btn-primary">Explore More</a>
     </center>
-    </div>
     <br><br>
+    </div>
+
 
     {{--  --}}
 </section>
