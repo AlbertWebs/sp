@@ -21,9 +21,11 @@
     
     <br><br>
     <center>
-        <a target="new" href="<?php echo e(url('/')); ?>/our-work" class="btn  btn-primary">Explore More</a>
+        <a style="padding-bottom: 10px" target="new" href="<?php echo e(url('/')); ?>/our-work" class="btn  btn-primary">Explore More</a>
     </center>
+
     </div>
+
 
     
 </section>

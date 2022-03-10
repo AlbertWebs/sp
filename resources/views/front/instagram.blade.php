@@ -21,9 +21,9 @@
     {{--  --}}
     <br><br>
     <center>
-        <a target="new" href="{{url('/')}}/our-work" class="btn  btn-primary">Explore More</a>
+        <a style="padding-bottom: 10px" target="new" href="{{url('/')}}/our-work" class="btn  btn-primary">Explore More</a>
     </center>
-    <br><br>
+
     </div>
 
 
