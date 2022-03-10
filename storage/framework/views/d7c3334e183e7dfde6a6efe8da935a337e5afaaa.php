@@ -23,7 +23,7 @@
         <center>
             <a target="new" href="<?php echo e(url('/')); ?>/our-work" class="btn  btn-primary">Explore More</a>
         </center>
-        <div  style="min-height: 100px !important"></div>
+
 
     </div>
     <div class="divider-spectrum"></div>

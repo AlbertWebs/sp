@@ -35,7 +35,7 @@
           .active{
              background-color: #F6C501;
           }
-          </style>
+        </style>
 
         <div class="range text-center offset-top-40 offset-sm-top-60 offset-lg-top-100">
             <div class="cell-xs-12">
@@ -45,13 +45,9 @@
             </div>
         </div>
 
-        
-        <br><br>
-        <center>
-            <a target="new" href="http://instagram.com/stagepassav/" class="btn  btn-primary">Go to Instagram</a>
-        </center>
-        
+
     </section>
+    <div class="divider-spectrum"></div>
 
 
 </main>
@@ -63,34 +59,31 @@
 
     <?php endif; ?>
     <section class="section-60 section-sm-100 bg-primary">
-      <div class="shell text-center text-md-left">
-        <div class="range range-md-middle range-md-center">
-        <?php $File = DB::table('files')->get() ?>
-        <?php $__currentLoopData = $File; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $file): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-
-          <div class="cell-md-4 cell-lg-3 offset-top-30 offset-md-top-0"><a id="click-me" class="btn btn-xl btn-white-outline"> View Our Profile</a></div>
-          <div class="container-popup" style="background: url('<?php echo e(url('/')); ?>/uploads/banners/tumblr_ms92j3l63y1s1b6gto1_1280.gif') no-repeat center;" id="show">
-          <div class="x">
-            <div class="one"></div>
-            <div class="two"></div>
-          </div>
-        <div class="sign-up">
-          <h1>Stagepass Audio Visual</h1>
-          <p style="color:#fff">Get a copy of our <strong>Business Profile.<strong></p>
-          <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="<?php echo e(url('/subscribe')); ?>" class="rd-mailform">
-                <input type="text" name="email" placeholder="Enter your email address">
-                <input type="submit" value="Request Profile">
-                <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
-              </form>
-
-
+        <div class="shell text-center text-md-left">
+           <div class="range range-md-middle range-md-center">
+              <?php $File = DB::table('files')->get() ?>
+              <?php $__currentLoopData = $File; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $file): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+              <div class="cell-md-4 cell-lg-3 offset-top-30 offset-md-top-0"><a id="click-me" class="btn btn-xl btn-white-outline"> View Our Profile</a> </div>
+              <div class="container-popup" style="background: url('<?php echo e(url('/')); ?>/uploads/banners/tumblr_ms92j3l63y1s1b6gto1_1280.gif') no-repeat center;" id="show">
+                 <div class="x">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                 </div>
+                 <div class="sign-up">
+                    <h1>Stagepass Audio Visual</h1>
+                    <p style="color:#fff">Get a copy of our <strong>Business Profile.<strong></p>
+                    <form data-form-output="form-output-global" data-form-type="subscribe" method="post" action="<?php echo e(url('/subscribe')); ?>" class="rd-mailform">
+                       <input type="text" name="email" placeholder="Enter your email address">
+                       <input type="submit" value="Request Profile">
+                       <input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+                    </form>
+                 </div>
+              </div>
+              <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+           </div>
         </div>
-    </div>
-        <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-        </div>
+     </section>
 
-      </div>
-    </section>
 
   </main>
 
