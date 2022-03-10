@@ -25,6 +25,7 @@
     </center>
 
     </div>
+    <div class="divider-spectrum"></div>
 
 
     
