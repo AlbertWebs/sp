@@ -23,7 +23,7 @@
         <center>
             <a target="new" href="{{url('/')}}/our-work" class="btn  btn-primary">Explore More</a>
         </center>
-        <div  style="padding-bottom: 10px"></div>
+        <div  style="height: 10px"></div>
 
     </div>
     <div class="divider-spectrum"></div>
